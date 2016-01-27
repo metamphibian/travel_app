@@ -1,10 +1,10 @@
 class WelcomeController < ApplicationController
   def index
-  	@homeland = 'Anchorage'
+  	@homeland = 'Iceland'
 
-  	@countries = ["Italy", "Thailand", "Iceland", "Norway"]
+  	@countries = ["Miami", "Greece", "New York", "Thailand"]
 
-  	@travel_pics = {"Bangkok" => "bangkok.jpg","Iceland" => "iceland.jpg","Norway" => "norway.jpg","Italy" => "italy.jpg"}
+  	@travel_pics = {"Miami" => "miami.jpg","Milos" => "milos.jpg","New York" => "new_york_skyline.jpg","Thailand" => "yangon.jpg"}
   end
 
   def about
